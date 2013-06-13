@@ -1,0 +1,30 @@
+{
+  "name": "tod",
+  "version": "0.0.1",
+  "description": "A node.js library for the tōd",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandeepmistry/node-tod.git"
+  },
+  "keywords": [
+    "tōd",
+    "tod",
+    "opentōd",
+    "opentod",
+    "tōdally!",
+    "todally!"
+  ],
+  "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "noble": "~0.1.1"
+  },
+  "devDependencies": {
+    "async": "~0.2.9",
+    "jshint": "~2.1.3"
+  }
+}
