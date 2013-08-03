@@ -26,13 +26,6 @@ Tod.discover(function(tod) {
       //   });
       // },
       // function(callback) {
-      //   console.log('readSoftwareRevision');
-      //   tod.readHardwareRevision(function(softwareRevision) {
-      //     console.log('\tsoftware revision = ' + softwareRevision);
-      //     callback();
-      //   });
-      // },
-      // function(callback) {
       //   console.log('readManufacturerName');
       //   tod.readManufacturerName(function(manufacturerName) {
       //     console.log('\tmanufacturer name = ' + manufacturerName);
@@ -60,20 +53,20 @@ Tod.discover(function(tod) {
       //     callback();
       //   });
       // },
-      // function(callback) {
-      //   console.log('readBatteryLevel');
-      //   tod.readBatteryLevel(function(batteryLevel) {
-      //     console.log('\tbattery level = ' + batteryLevel);
-      //     callback();
-      //   });
-      // },
-      // function(callback) {
-      //   console.log('readTxPower');
-      //   tod.readTxPower(function(txPower) {
-      //     console.log('\ttx power = ' + txPower);
-      //     callback();
-      //   });
-      // },
+      function(callback) {
+        console.log('readBatteryLevel');
+        tod.readBatteryLevel(function(batteryLevel) {
+          console.log('\tbattery level = ' + batteryLevel);
+          callback();
+        });
+      },
+      function(callback) {
+        console.log('readTxPower');
+        tod.readTxPower(function(txPower) {
+          console.log('\ttx power = ' + txPower);
+          callback();
+        });
+      },
       function(callback) {
         console.log('disconnect');
         tod.disconnect(callback);
