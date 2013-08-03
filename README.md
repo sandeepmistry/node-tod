@@ -3,7 +3,7 @@ node-tod
 
 A node.js library for the [tōd](http://www.todhq.com).
 
-__Note__: only tested with stock firmware, tod disconnects automatically.
+__Note__: only tested with stock firmware, tod disconnects automatically, so read commands must be quick!
 
 Install
 -------
@@ -18,6 +18,8 @@ Usage
 __Discover__
 
     Tod.discover(callback(tod));
+
+    var todName = tod.id;
 
 __Connect__
 
