@@ -1,6 +1,6 @@
 {
   "name": "tod",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node.js library for the tōd",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "noble": "~0.1.2"
+    "noble": "~0.2.0"
   },
   "devDependencies": {
     "async": "~0.2.9",
