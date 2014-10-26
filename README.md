@@ -1,6 +1,8 @@
 node-tod
 ========
 
+[![Analytics](https://ga-beacon.appspot.com/UA-56089547-1/sandeepmistry/node-tod?pixel)](https://github.com/igrigorik/ga-beacon)
+
 A node.js library for the [tōd](http://www.todhq.com).
 
 __Note__: only tested with stock firmware, tod disconnects automatically, so read commands must be quick!
